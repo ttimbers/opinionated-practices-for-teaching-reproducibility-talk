@@ -1,1 +1,4 @@
-# toronto-data-workshop-reproducibility
+# Teaching reproducibility: motivation, direct instruction and practice
+Tiffany Timbers's talk for Toronto Data Workshop on Reproducibility (2021)
+
+In the data science courses at UBC, we define data science as the study and development of reproducible and auditable processes to obtain value (*i.e.,* insight) from data. Most people who engage in some form of learning data science, do not start learning data science for the reproducible and auditable processes part of the definition, but for the glory associated with gaining the skills to obtain value/insight from data. This fact, along with the highly technical and computational nature of the industry standard reproducibility tools currently employed in data science, present out-of-the gate challenges in teaching reproducibility in the data science classroom. Put simply, students are not as inherently motivated to learn the topic, and it is not an easy one for them to learn.   
