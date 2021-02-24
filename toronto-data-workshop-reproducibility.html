@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Teaching reproducibility:</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Tiffany Timbers (UBC)" />
+    <meta name="date" content="2021-02-24" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Teaching reproducibility:
+## motivation, direct instruction <br>and practice
+### Tiffany Timbers (UBC)
+### 2021-02-24
+
+---
+
+
+
+
+
+
+class: center, middle
+
+# A bit about me and what I teach at UBC
+
+---
+
+class:
+
+- certified Software &amp; Data Carpentry Instructor
+- certified Rstudio {tidyverse} Instructor
+- Assistant Professor of Teaching, Dept. of Statistics
+- Co-Director of the UBC Master of Data Science program
+
+.pull-left[
+&lt;img src="img/logos.png" height=300&gt;
+]
+
+.pull-right[
+#### Graduate courses:
+- [DSCI 523: Programming for data manipulation](https://github.com/UBC-MDS/DSCI_523_r-prog)
+- [DSCI 552: Statistical inference and computation I](https://github.com/UBC-MDS/DSCI_552_stat-inf-1)
+- [DSCI 522: Data science workflows](https://github.com/UBC-MDS/DSCI_522_dsci-workflows)
+- [DSCI 524: Collaborative software development](https://github.com/UBC-MDS/DSCI_524_collab-sw-dev)
+
+#### Underaduate courses:
+- [DSCI 100: Introduction to data science](https://ubc-dsci.github.io/dsci-100/README.html)
+- DSCI 310: Reproducible and trustworthy workflows for data science (new course!)
+]
+---
+
+class: inverse, center, middle
+
+# Data Science:
+
+### *the study and development of reproducible and auditable processes to obtain insight from data*
+
+---
+
+# Key things for teaching reproducibility
+
+--
+
+### 1. Extra emphasis on motivation
+
+--
+
+### 2. Direct instruction
+
+--
+
+### 3. Lots of practice!!!
+
+---
+
+class: inverse, center, middle
+
+# Why do we need "extra" motivation?
+
+---
+class: center
+
+&lt;img src="https://imgs.xkcd.com/comics/git_2x.png" height=550&gt;
+
+*Source: https://xkcd.com/1597/*
+---
+
+class: center
+
+&lt;img src="img/rmd_cat.jpeg" height=550&gt;
+
+*Source: https://twitter.com/overflow_meme/status/1232185254280138753*
+
+---
+class: center
+
+&lt;img src="https://www.meme-arsenal.com/memes/f8e3714ed0d4a19b65ebe61006ac9bde.jpg"&gt;
+
+*Source: https://www.meme-arsenal.com/en/create/meme/1759571*
+
+---
+
+# Examples of how we motivate learning
+
+--
+
+### 1. Tell stories from the trenches
+
+--
+
+### 2. Let them fail (in a controlled manner)
+
+--
+
+### 3. Case studies of failures with real world consequences
+
+
+---
+
+# Why direct instruction?
+
+### Very similar reasons as to why we need extra motivation. 
+
+### This is not something (most) students figure out through exploration and inquiry based learning, or at least not efficiently...
+
+---
+
+### Excerpt from Roger Peng's blog post on &lt;br&gt; ["The Role of Theory in Data Analysis"](https://simplystatistics.org/2018/12/11/the-role-of-theory-in-data-analysis/):
+
+#### *There is no need for a new data analyst to learn about reproducibility “from experience”. We don’t need to lead a junior data analyst down a months-long winding path of non-reproducible analyses until they are finally bitten by non-reproducibility (and therefore “learn their lesson”). We can just tell them*
+
+#### *In the past, we’ve found it useful to make our data analyses reproducible. Here’s a workflow to guide you in your own analyses.*
+
+#### *With that one statement, we can “compress” over 20 years of experience.*
+
+---
+
+# Examples of how we use direct instruction
+
+--
+
+### 1. Live demos
+
+--
+
+### 2. Guided worksheets and tutorials
+
+---
+
+class: inverse, center, middle
+
+
+### However, there be dragons...
+
+---
+
+class: center, middle
+
+&lt;img src="img/master_to_main.png" width=750&gt;
+
+### *...fast moving field means constant curation*
+
+*Source: https://github.com/ 
+&lt;br&gt;&amp; http://www.piwai.info/blog-meets-monster-octocat*
+
+---
+
+# Why lots of practice?
+
+### There are two fundamental ways we commit things to long-term memory:
+
+1. one-trial learning (requires emotional impact)
+
+2. repetitive spaced training
+
+---
+
+class: center, middle
+
+### However, when we teach reproducibility workflows and skills, we want students to do more than learn them, we want them to use and practice them. 
+
+### We want to actually change their habits or behaviours.
+
+---
+
+# Examples of how we embed lots of practice
+
+--
+
+### 1. Student practice following live demos
+
+--
+
+### 2. Lots of low stakes assessments with small/short problems
+
+--
+
+### 3. Learning technologies &amp; platforms use authentic data science reproducibility tools
+
+---
+
+class: inverse, center, middle
+
+# Wrap up
+
+---
+
+# Key things for teaching reproducibility
+
+### 1. Extra emphasis on motivation
+
+### 2. Direct instruction
+
+### 3. Lots of practice!!!
+
+---
+
+class: inverse, center, middle
+
+# Questions?
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
