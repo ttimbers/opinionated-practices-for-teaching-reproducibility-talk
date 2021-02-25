@@ -2,7 +2,7 @@
 title: "Teaching reproducibility:"
 subtitle: "motivation, direct instruction <br>and practice"  
 author: 
-  - "Tiffany Timbers (UBC)"
+  - "@TiffanyTimbers (UBC)"
   - "`r Sys.Date()`"
 date: '*bit.ly/2O2yULa*'
 output:
