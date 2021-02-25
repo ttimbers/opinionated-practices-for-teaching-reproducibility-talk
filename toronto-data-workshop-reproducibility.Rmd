@@ -317,6 +317,8 @@ class: inverse, center, middle
 
 ---
 
+class: middle
+
 ## Key things for teaching reproducibility
 
 ### 1. Extra emphasis on motivation
