@@ -3,7 +3,8 @@ title: "Teaching reproducibility:"
 subtitle: "motivation, direct instruction <br>and practice"  
 author: 
   - "Tiffany Timbers (UBC)"
-date: '`r Sys.Date()`'
+  - "`r Sys.Date()`"
+date: '*bit.ly/2O2yULa*'
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -24,6 +25,8 @@ style_duo_accent(
   primary_color = "#9F999C",
   secondary_color = "#FFE5F3",
   inverse_header_color = "#8F8C8E",
+  link_color = "deeppink",
+  title_slide_text_color = "white",
   header_font_google = google_font("Josefin Sans"),
   text_font_google   = google_font("Montserrat", "300", "300i"),
   code_font_google   = google_font("Fira Mono")
@@ -34,14 +37,17 @@ class: center, middle
 
 # A bit about me and what I teach at UBC
 
+<img src="img/tiff.png" height=150>
+
+
 ---
 
 class:
 
-- certified Software & Data Carpentry Instructor
-- certified Rstudio {tidyverse} Instructor
-- Assistant Professor of Teaching, Dept. of Statistics
-- Co-Director of the UBC Master of Data Science program
+- Software & Data Carpentry Instructor
+- Rstudio {tidyverse} Instructor
+- Assistant Professor of Teaching, Dept. of Statistics, UBC
+- Co-Director of the UBC Master of Data Science program, UBC
 
 .pull-left[
 <img src="img/logos.png" height=300>
@@ -68,7 +74,7 @@ class: inverse, center, middle
 
 ---
 
-# Key things for teaching reproducibility
+## Key things for teaching reproducibility
 
 --
 
@@ -111,7 +117,7 @@ class: center
 
 ---
 
-# Examples of how we motivate learning
+## Examples of how we motivate learning
 
 --
 
@@ -128,11 +134,17 @@ class: center
 
 ---
 
-# Example: Let them fail (in a controlled manner)
+### Example: Let them fail (in a controlled manner)
 
 **Course:** DSCI 522 (workflows for data science)
 
+.pull-left[
 **Topic:** Containerization via Docker
+]
+
+<center>
+<img src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png" width=100>
+</center>
 
 Give students a data analysis pipeline project on GitHub, and ask them to run it.
 They have done things like this before, but this time, we add several packages 
@@ -169,7 +181,7 @@ class: middle
 
 ---
 
-# Examples of how we use direct instruction
+## Examples of how we use direct instruction
 
 --
 
@@ -199,11 +211,16 @@ class: center, middle
 
 ---
 
-# Example: direct instruction
+### Example: direct instruction
 
 **Course:** DSCI 100 (Introduction to data science)
 
+.pull-left[
 **Topic:** Version control
+]
+
+<img src="https://miro.medium.com/max/1400/1*n5MnDrinAXeY2NpCX9H8cw.jpeg" width=300>
+
 
 Live demonstrate how to use the GitHub website to create a repository, and a Git 
 GUI to clone the repository as well as push code to the repository on GitHub.
@@ -212,6 +229,11 @@ Students then work through a worksheet, that guides them to do the same thing,
 which asks them questions along the way about what they are doing at each stage
 to reinforce the conceptual aspects of what they are doing.
 
+**Artifacts for this example:**
+- [Live demonstration](https://youtu.be/attPo4zEElU)
+- [Worksheet to guide students](https://github.com/UBC-DSCI/dsci-100/blob/master/materials/worksheet_05/worksheet_05.ipynb)
+- [Accompanying textbook reading](https://ubc-dsci.github.io/introduction-to-datascience/version-control.html)
+
 ---
 class: inverse, center, middle
 
@@ -219,13 +241,13 @@ class: inverse, center, middle
 
 ---
 
-class: center
+class: middle
 
 ## There are two fundamental ways we commit things to long-term memory:
 
-1. one-trial learning (requires emotional impact)
+### 1. one-trial learning (requires emotional impact)
 
-2. repetitive spaced training
+### 2. repetitive spaced training
 
 ---
 
@@ -237,7 +259,16 @@ class: center, middle
 
 ---
 
-# Examples of how we embed lots of practice
+class: center, middle
+
+### An aside: A book that has recently made me think more about how we can tangibly do this:
+<a href="https://jamesclear.com/atomic-habits">
+<img src="https://jamesclear.com/wp-content/uploads/2021/01/atomic-habits-dots-retina.png" height=400>
+</a>
+
+---
+
+## Examples of how we embed lots of practice
 
 --
 
@@ -253,11 +284,15 @@ class: center, middle
 
 ---
 
-# Example: lots of practice!!!
+### Example: lots of practice!!!
 
 **Course:** Almost all Master of Data Science courses (~ 20 courses)
 
+.pull-left[
 **Topic:** Version control
+]
+
+<img src="https://miro.medium.com/max/1400/1*n5MnDrinAXeY2NpCX9H8cw.jpeg" width=300>
 
 We use GitHub as our course management system. Homework instructions and 
 assignments are distributed to students as GitHub repositories. They have 
@@ -269,6 +304,10 @@ submission.
 By the end of the program, they have version controlled their work in > 80 
 different repositories!!!
 
+**Tools for using GitHub as a learning management system:**
+- [GitHub Classroom](https://classroom.github.com/)
+- [Classy](https://github.com/ubccpsc/classy)
+- [rhomboid](https://github.com/mgelbart/rhomboid)
 ---
 
 
@@ -278,7 +317,7 @@ class: inverse, center, middle
 
 ---
 
-# Key things for teaching reproducibility
+## Key things for teaching reproducibility
 
 ### 1. Extra emphasis on motivation
 
@@ -291,3 +330,5 @@ class: inverse, center, middle
 class: inverse, center, middle
 
 # Questions?
+
+####*bit.ly/2O2yULa*
