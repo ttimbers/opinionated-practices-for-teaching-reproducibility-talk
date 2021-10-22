@@ -4,10 +4,8 @@
     <title>Teaching reproducibility:</title>
     <meta charset="utf-8" />
     <meta name="author" content="@TiffanyTimbers (UBC)" />
-    <meta name="author" content="2021-02-24" />
+    <meta name="author" content="2021-10-22" />
     <script src="libs/header-attrs/header-attrs.js"></script>
-    <link href="libs/anchor-sections/anchor-sections.css" rel="stylesheet" />
-    <script src="libs/anchor-sections/anchor-sections.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
   </head>
   <body>
@@ -17,8 +15,8 @@ class: center, middle, inverse, title-slide
 # Teaching reproducibility:
 ## motivation, direct instruction <br>and practice
 ### <span class="citation">@TiffanyTimbers</span> (UBC)
-### 2021-02-24
-### <em>bit.ly/2O2yULa</em>
+### 2021-10-22
+### <em>replace-bit.ly link!</em>
 
 ---
 
@@ -68,19 +66,76 @@ class: inverse, center, middle
 
 ---
 
+## Reproducible analysis:
+
+#### *reaching the same result given the same input, computational methods and conditions*.fn[1]
+
+## Transparent analysis,
+
+#### *a readable record of the steps used to carry out the analysis as well as a record of how the analysis methods evolved*.fn[2]
+
+.footnote[
+[1] National Academies of Sciences, 2019
+
+[2] Parker, 2017 and Ram, 2013
+]
+
+---
+
+## Why do we adopt this definition?
+
+We believe that data science work should both bring insight 
+and employ reproducible and auditable methods so that
+trustworthy results and data products can be created.
+
+Data products can be built via other methods, 
+but we lack confidence in how the results or
+products were created.
+
+We believe this stems from non-reproducible and
+non-auditable analyses:
+
+1. lacking evidence that the results or product could be regenerated given
+the same input computational methods, and conditions
+
+2. lacking evidence of the steps taken during creation
+
+3. having an incomplete record of how and why analysis decisions were
+made
+
+---
+
+class: inverse, center, middle
+
+## *So if reproducibility is so important for data science, why is it hard to teach it?*
+
+---
+
+class: middle
+
+## Possibilities:
+
+1. Lack of awareness of the problem?
+
+2. Reproducibility is an inconvenient means to end, rather than an important skill?
+
+3. Reproducibility does not directly lead to novel insights?
+
+---
+
 ## Key things for teaching reproducibility
 
 --
 
-### 1. Extra emphasis on motivation
+### 1. placing extra emphasis on motivation
 
 --
 
-### 2. Direct instruction
+### 2. guided instruction
 
 --
 
-### 3. Lots of practice!!!
+### 3. lots of practice!!!
 
 ---
 
@@ -119,11 +174,51 @@ class: center
 
 --
 
-### 2. Let them fail (in a controlled manner)
+### 2. Study cases of failures with real world consequences
 
 --
 
-### 3. Case studies of failures with real world consequences
+### 3. Let them fail (in a controlled manner)
+
+
+---
+
+### 1. Tell stories from the trenches
+
+--
+
+*As a Masters student, I started to use R to do my statistical analysis.
+I obtained the results I needed from running my code in the R console 
+and copying the results into the word document that was my manuscript.
+Six months later we were working on revisions requested by the reviewers 
+and I could not remember which version of the code I ran to get my results.
+I eventually figured it out through much trial and error, 
+but the process was inefficient and very stressful.*
+
+--
+
+*As a Masters student, I spent many hours customizing the colors of a figure
+that had many points and lines on it using Adobe Illustrator. 
+The next week in a meeting with my supervisor, 
+she very correctly pointed out that the color scheme I chose 
+would be problematic for color-blind people.
+I then had to spend many more hours repeating the same work 
+to change the colors of all the lines and points to fix it.
+It was very frustrating to repeat such tedious and time consuming work,
+and I was not able to meet other deadlines on time because I had to redo this.*
+
+---
+
+### 2. Study cases of failures with real world consequences
+
+| Reproducibility error                                    | Consequence                                          | Source(s)                                |
+|----------------------------------------------------------|------------------------------------------------------|------------------------------------------|
+| Limitations in Excel data formats                        | Loss of 16,000 COVID case records in the UK          | Kelion, 2020                    |
+| Automatic formatting in Excel                            | Important genes disregarded in scientific studies    | Zeeberg et al., 2004; Ziemann et al., 2016 |
+| Deletion of a cell caused rows to shift                  | Mix-up of which patient group received the treatment | Wallensteen et al., 2018             |
+| Using binary instead of explanatory labels               | Mix-up of the intervention with the control group    | Aboumatar et al., 2019             |
+| Using the same notation for missing data and zero values | Paper retraction                                     | Whitehouse et al., 2021               |
+| Incorrectly copying data in a spreadsheet                | Delay in the opening of a hospital                   | Picken, 2020                    |
 
 
 ---
@@ -153,13 +248,13 @@ instructions for running it in a Docker container.
 
 class: inverse, center, middle
 
-# Why direct instruction?
+# Why guided instruction?
 
 ---
 
 class: center, middle
 
-### This is not something (most) students figure out through exploration and inquiry based learning, or at least not efficiently...
+### *From our experience, reproducibility is not something that most people or students figure out on their own, or if they do, it is not an efficient process...*
 
 ---
 
@@ -175,15 +270,19 @@ class: middle
 
 ---
 
-## Examples of how we use direct instruction
+## Examples of how we use guided instruction
 
 --
 
-### 1. Live demos
+### 1. Live demonstration
 
 --
 
-### 2. Guided worksheets and tutorials
+### 2. Pre-lecture activities
+
+--
+
+### 3. Worksheets
 
 ---
 
@@ -205,7 +304,7 @@ class: center, middle
 
 ---
 
-### Example: direct instruction
+### Example: guided instruction
 
 **Course:** DSCI 100 (Introduction to data science)
 
@@ -224,9 +323,9 @@ which asks them questions along the way about what they are doing at each stage
 to reinforce the conceptual aspects of what they are doing.
 
 **Artifacts for this example:**
+- [Accompanying textbook reading](https://ubc-dsci.github.io/introduction-to-datascience/Getting-started-with-version-control.html)
 - [Live demonstration](https://youtu.be/attPo4zEElU)
-- [Worksheet to guide students](https://github.com/UBC-DSCI/dsci-100/blob/master/materials/worksheet_05/worksheet_05.ipynb)
-- [Accompanying textbook reading](https://ubc-dsci.github.io/introduction-to-datascience/version-control.html)
+- [Worksheet to guide students](https://github.com/UBC-DSCI/dsci-100-assets/blob/master/2021-spring/materials/worksheet_05/worksheet_05.ipynb)
 
 ---
 class: inverse, center, middle
@@ -237,11 +336,9 @@ class: inverse, center, middle
 
 class: middle
 
-## There are two fundamental ways we commit things to long-term memory:
+## **Mastery of a subject often involves consolidating ideas, concepts and theories into long-term memory.** 
 
-### 1. one-trial learning (requires emotional impact)
-
-### 2. repetitive spaced training
+## **And consolidating most things into long-term memory requires repetition (Ebbinghaus 1913).**
 
 ---
 
@@ -317,9 +414,24 @@ class: middle
 
 ### 1. Extra emphasis on motivation
 
-### 2. Direct instruction
+### 2. Guided instruction
 
 ### 3. Lots of practice!!!
+
+---
+
+## References
+
+National Academies of Sciences, Engineering, and Medicine and others
+(2019). Reproducibility and replicability in science. National Academies
+Press.
+
+Parker, Hilary (2017). “Opinionated analysis development”. In: PeerJ
+Preprints 5, e3210v1.
+
+Ram, Karthik (2013). “Git can facilitate greater reproducibility and increased
+transparency in science”. In: Source code for biology and medicine 8.1,
+pp. 1–8.
 
 ---
 
