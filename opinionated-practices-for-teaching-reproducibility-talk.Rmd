@@ -1,6 +1,6 @@
 ---
 title: "Teaching reproducibility:"
-subtitle: "motivation, direct instruction <br>and practice"  
+subtitle: "motivation, guided instruction <br>and practice"  
 author: 
   - "@TiffanyTimbers (UBC)"
   - "`r Sys.Date()`"
@@ -13,6 +13,9 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      slideNumberFormat: '%current%'
+      titleSlideClass: [top, left]
+      ratio: '16:9'
 ---
 
 ```{r setup, include=FALSE}
@@ -26,7 +29,9 @@ style_duo_accent(
   secondary_color = "#FFE5F3",
   inverse_header_color = "#8F8C8E",
   link_color = "deeppink",
-  title_slide_text_color = "white",
+  title_slide_text_color = "#3d3d3d",
+  title_slide_background_image = "img/title-slide-background.png",
+  title_slide_background_position = "left",
   header_font_google = google_font("Josefin Sans"),
   text_font_google   = google_font("Montserrat", "300", "300i"),
   code_font_google   = google_font("Fira Mono")
@@ -37,12 +42,12 @@ class: center, middle
 
 # A bit about me and what I teach at UBC
 
-<img src="img/tiff.png" height=150>
+<img src="img/tiff.jpg" height=300>
 
 
 ---
 
-class:
+### Teaching experience
 
 - Software & Data Carpentry Instructor
 - Rstudio {tidyverse} Instructor
@@ -50,7 +55,7 @@ class:
 - Co-Director of the UBC Master of Data Science program, UBC
 
 .pull-left[
-<img src="img/logos.png" height=300>
+<img src="img/logos.png" height=350>
 ]
 
 .pull-right[
@@ -70,7 +75,9 @@ class: inverse, center, middle
 
 # Data Science:
 
-### *the study and development of reproducible and auditable processes to obtain insight from data*
+### *the study, development and practice* 
+### *of reproducible and auditable processes* 
+### *to obtain insight from data*
 
 ---
 
@@ -440,6 +447,10 @@ Preprints 5, e3210v1.
 Ram, Karthik (2013). “Git can facilitate greater reproducibility and increased
 transparency in science”. In: Source code for biology and medicine 8.1,
 pp. 1–8.
+
+## Credits
+
+[Title slide illustration](https://www.freepik.com/free-vector/couple-professionals-analyzing-graphs_6974868.htm) was created by pch.vector  - www.freepik.com.
 
 ---
 
