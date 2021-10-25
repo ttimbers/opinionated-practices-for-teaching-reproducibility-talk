@@ -745,6 +745,29 @@ are widespread in the scientific literature”. In: Genome biology 17.1, pp. 1�
 
 ---
 
+## Acknowledgements
+
+UBC Master of Data Science teaching team (past and present)
+- Tomas Beuzen
+- Vincenzo Coia
+- Giulio Valentino Dalla Riva
+- Florencia D'Andrea
+- Mike Gelbart
+- Gittu George
+- Varada Kolhatkar
+- Rodolfo Lourenzutti
+- Firas Moosvi
+- Quan Nguyen
+- **Joel Ostblom**
+- Alexi Rodríguez-Arelis
+- Arman Seyed-Ahmadi
+
+DSCI 100 teaching team
+  - Trevor Campbell
+  - Melissa Lee
+
+---
+
 class: inverse, center, middle
 
 # Questions?
