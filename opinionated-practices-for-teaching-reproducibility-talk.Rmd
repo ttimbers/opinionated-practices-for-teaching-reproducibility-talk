@@ -520,6 +520,7 @@ due to a momentary lack of willpower.fn[1].
 
 .pull-left[
 <img src="https://media.giphy.com/media/3240pzelRQkjj9XaiK/source.gif">
+*Source: https://giphy.com/gifs/reaction-3240pzelRQkjj9XaiK*
 ]
 
 .pull-right[
@@ -594,13 +595,57 @@ to submit their assignment by pushing their work to the GitHub repositories.
 We also require that they have 3 commits associated with each homework 
 submission.
 
-By the end of the program, they have version controlled their work in > 80 
+By the end of the program, they have version controlled their work in > 96 
 different repositories!!!
 
 **Tools for using GitHub as a learning management system:**
 - [GitHub Classroom](https://classroom.github.com/)
 - [Classy](https://github.com/ubccpsc/classy)
 - [rhomboid](https://github.com/mgelbart/rhomboid)
+---
+
+### Example: lots of practice!!!
+
+Home table of a UBC Master of Data Science student's 
+GitHub homework repositories:
+
+.pull-left[
+<img src="img/home-table1.png" width=475>
+]
+
+.pull-right[
+<img src="img/home-table2.png" width=450>
+]
+
+---
+
+## Staging might be useful for practicing more advanced reproducibility workflows
+
+Some reproducibility workflows require some time consuming, 
+or complex prerequisite work to have been done before it makes sense to do them.
+
+In such cases. "pre-baking" exercises to a particular point
+is helpful for providing practice opportunities.
+
+
+.pull-left[
+<img src="img/martha-stewart.png" width=500>
+
+Source: https://peopletv.com/video/martha-bakes-angel-food-cake/
+]
+
+.pull-right[
+Examples include:
+
+- automating the running of scripts via a data analysis pipeline (e.g., Makefile)
+
+- using `bookdown` or Jupyter book to automate figure and table numbering
+
+- organizing GitHub issues into milestones and a project board ([example exercise](https://github.com/ttimbers/mds-homework))
+
+- performing a code review on a pull requests ([example exercise](https://github.com/ttimbers/review-my-pull-request))
+]
+
 ---
 
 
