@@ -120,6 +120,31 @@ made
 
 ---
 
+## Examples of things that can go wrong without reproducible practices
+
+--
+
+- An interesting result that you cannot recreate 😞
+
+--
+
+- Your email inbox is full of information related to the project that only you have access too 😫
+
+--
+
+- A small change to the analysis code requires re-running the entire thing, *and takes hours...* 😧
+
+--
+
+- Activation time to becoming productive after taking a break from the project is hours to days 😴
+
+--
+
+- Code that can only be run on one machine, *and you don't know why...* 😵
+
+
+---
+
 class: inverse, center, middle
 
 ## *So if reproducibility is so important for data science, why is it hard to teach it?*
@@ -161,9 +186,49 @@ class: inverse, center, middle
 ---
 class: center
 
-<img src="https://imgs.xkcd.com/comics/git_2x.png" height=550>
+## Git is hard!
+
+<img src="https://imgs.xkcd.com/comics/git_2x.png" height=475>
 
 *Source: https://xkcd.com/1597/*
+---
+
+## Git is hard!
+
+Command to view the state of the repository 2 commits ago:
+```bash
+git checkout HEAD~2
+```
+
+Output 🤯:
+```bash
+Note: switching to 'HEAD~2'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at cea9a00 updated site
+
+```
+
+---
+
+## Git is hard!
+
+<img src="img/jenny-bryan-burn-it-all-down.png" width=700>
+
 ---
 
 class: center
@@ -505,10 +570,36 @@ class: middle
 
 ---
 
-## References
+class: center, middle
+
+<img src="https://media.giphy.com/media/x1yhRwlqxBiQU/source.gif" width=800>
+
+---
+
+## Anectodal evidence
+
+- reduced technical debt in UBC Master of Data Science Capstone projects 
+as we have gained more experience teaching reproducibility
+
+## Feedback from Alumni
+
+- *"I had my [COMPANY] Git training today for the data engineers/scientists and I wanted to tell you that everything I learned in your class about git was extremely helpful. You did such an amazing job teaching everything we need to know about git and working in technology, (I personally think I learned much more in your class than in my training here in SF)."*
+
+- *"...the use of Git and Docker and the strong focus on reproducibility are of the best technical skills our program offer."*
+
+---
+
+### References
+
+Fournier, Marion et al. (Nov. 2017). “Effects of Circadian Cortisol on the Development of a Health Habit”. eng. In: Health Psychology: Official Journal
+of the Division of Health Psychology, American Psychological Association
+36.11, pp. 1059–1064. issn: 1930-7810. doi: 10.1037/hea0000510.
 
 Gardner, Benjamin and Amanda L. Rebar (Apr. 2019). “Habit Formation
 and Behavior Change”. en. In: Oxford Research Encyclopedia of Psychology. Oxford University Press. isbn: 978-0-19-023655-7. doi: 10.1093/acrefore/9780190236557.013.129.
+
+Lally, Phillippa et al. (2010). “How Are Habits Formed: Modelling Habit Formation in the Real World”. en. In: European Journal of Social Psychology
+40.6, pp. 998–1009. issn: 1099-0992. doi: 10.1002/ejsp.674.
 
 National Academies of Sciences, Engineering, and Medicine and others
 (2019). Reproducibility and replicability in science. National Academies
@@ -521,7 +612,7 @@ Ram, Karthik (2013). “Git can facilitate greater reproducibility and increased
 transparency in science”. In: Source code for biology and medicine 8.1,
 pp. 1–8.
 
-## Credits
+### Credits
 
 [Title slide illustration](https://www.freepik.com/free-vector/couple-professionals-analyzing-graphs_6974868.htm) was created by pch.vector  - www.freepik.com.
 
