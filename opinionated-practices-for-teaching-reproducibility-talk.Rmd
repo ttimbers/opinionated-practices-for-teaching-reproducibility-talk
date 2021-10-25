@@ -277,11 +277,11 @@ RUN apt-get update -qq && install2.r --error \
 Build the Dockerfile:
 ```bash
 time docker build .
-[+] Building 632.2s (6/6) FINISHED
+[+] Building 198.4s (6/6) FINISHED
 ...
 ```
 
-That took > 10 minutes to build on my Macbook pro!!!
+That took about 5 minutes to build on my Macbook pro!!!
 
 ---
 
