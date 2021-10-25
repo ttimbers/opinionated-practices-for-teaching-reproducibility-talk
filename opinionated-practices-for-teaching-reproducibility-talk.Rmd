@@ -1,10 +1,10 @@
 ---
-title: "Teaching reproducibility:"
+title: "Opinionated practices for teaching reproducibility:"
 subtitle: "motivation, guided instruction <br>and practice"  
 author: 
   - "@TiffanyTimbers (UBC)"
   - "`r Sys.Date()`"
-date: '*replace-bit.ly link!*'
+date: '*bit.ly/opin-teach-repro*'
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -747,6 +747,7 @@ are widespread in the scientific literature‚Äù. In: Genome biology 17.1, pp. 1‚Ä
 
 ## Acknowledgements
 
+.pull-left[
 UBC Master of Data Science teaching team (past and present)
 - Tomas Beuzen
 - Vincenzo Coia
@@ -765,7 +766,12 @@ UBC Master of Data Science teaching team (past and present)
 DSCI 100 teaching team
   - Trevor Campbell
   - Melissa Lee
+]
 
+.pull-right[
+2021-22 Master of Data Science teaching team
+<img src="https://ubc-mds.github.io/img/team/group.jpeg">
+]
 ---
 
 class: inverse, center, middle
@@ -776,4 +782,4 @@ class: inverse, center, middle
 
 ### @TiffanyTimbers
 
-####*bit.ly/replace!*
+####*[bit.ly/opin-teach-repro](https://bit.ly/opin-teach-repro)*
