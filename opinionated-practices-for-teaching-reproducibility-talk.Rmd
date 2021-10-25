@@ -30,7 +30,7 @@ style_duo_accent(
   inverse_header_color = "#8F8C8E",
   link_color = "deeppink",
   title_slide_text_color = "#3d3d3d",
-  title_slide_background_image = "img/title-slide-background.png",
+  title_slide_background_image = "img/title-slide-background-light.png",
   title_slide_background_position = "left",
   header_font_google = google_font("Josefin Sans"),
   text_font_google   = google_font("Montserrat", "300", "300i"),
@@ -353,8 +353,12 @@ class: middle
 
 ## **Mastery of a subject often involves consolidating ideas, concepts and theories into long-term memory.** 
 
-## **And consolidating most things into long-term memory requires repetition (Ebbinghaus 1913).**
+## **And consolidating most things into long-term memory requires repetition**.fn[1].
 
+.footnote[
+[1] Ebbinghaus, Hermann (1913). “Memory (ha ruger & ce bussenius, trans.)”
+In: New York: Teachers College.(Original work published 1885) 39.
+]
 ---
 
 class: center, middle
@@ -374,7 +378,73 @@ class: center, middle
 
 ---
 
-## Examples of how we embed lots of practice
+class: inverse, center, middle
+
+# Habit formation
+
+### *the triggering of behavior from contextual cues*.fn[1]. 
+
+<!--In the context of reproducible workflows
+these cues are the tasks that students desire to execute, such as saving a file
+after adding new content or wanting to share a document with a colleague.-->
+
+.footnote[
+[1] Gardner, Benjamin and Amanda L. Rebar (Apr. 2019). “Habit Formation
+and Behavior Change”. en. In: Oxford Research Encyclopedia of Psychology. Oxford University Press. isbn: 978-0-19-023655-7. doi: 10.1093/acrefore/9780190236557.013.129.
+]
+
+---
+
+## How does habit formation help?
+
+Habits protect individuals from motivational lapses, 
+where a desired good behavior is not expressed 
+due to a momentary lack of willpower.fn[1]. 
+
+.pull-left[
+<img src="https://media.giphy.com/media/3240pzelRQkjj9XaiK/source.gif">
+]
+
+.pull-right[
+- Non-reproducible workflows tend to be "easier" and life gets "busy"...
+
+- Without reproducibility habits, 
+its a perfect storm to do the non-reproducible alternative 
+**(even when you know it's better!)**
+
+- We want to get students to a point 
+where they opt for the reproducible workflow “by default”.
+]
+
+
+.footnote[
+[1] Gardner, Benjamin and Amanda L. Rebar (Apr. 2019). “Habit Formation
+and Behavior Change”. en. In: Oxford Research Encyclopedia of Psychology. Oxford University Press. isbn: 978-0-19-023655-7. doi: 10.1093/acrefore/9780190236557.013.129.
+]
+
+---
+
+## How are habits formed?
+
+- best learned through frequent, regular, and sustained cue exposure
+
+- some studies have reported that the median is at least around 70 days 
+before reaching the plateau phase of habit development.fn[1],.fn[2].
+
+- ### habits == LOTS OF PRACTICE!
+
+.footnote[
+[1] Lally, Phillippa et al. (2010). “How Are Habits Formed: Modelling Habit Formation in the Real World”. en. In: European Journal of Social Psychology
+40.6, pp. 998–1009. issn: 1099-0992. doi: 10.1002/ejsp.674.
+
+[2] Fournier, Marion et al. (Nov. 2017). “Effects of Circadian Cortisol on the Development of a Health Habit”. eng. In: Health Psychology: Official Journal
+of the Division of Health Psychology, American Psychological Association
+36.11, pp. 1059–1064. issn: 1930-7810. doi: 10.1037/hea0000510.
+]
+
+---
+
+## Examples of how we embed lots of practice in the data science classroom
 
 --
 
@@ -437,6 +507,9 @@ class: middle
 
 ## References
 
+Gardner, Benjamin and Amanda L. Rebar (Apr. 2019). “Habit Formation
+and Behavior Change”. en. In: Oxford Research Encyclopedia of Psychology. Oxford University Press. isbn: 978-0-19-023655-7. doi: 10.1093/acrefore/9780190236557.013.129.
+
 National Academies of Sciences, Engineering, and Medicine and others
 (2019). Reproducibility and replicability in science. National Academies
 Press.
@@ -462,4 +535,4 @@ class: inverse, center, middle
 
 ### @TiffanyTimbers
 
-####*bit.ly/2O2yULa*
+####*bit.ly/replace!*
