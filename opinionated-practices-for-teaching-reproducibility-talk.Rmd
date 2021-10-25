@@ -233,16 +233,55 @@ HEAD is now at cea9a00 updated site
 
 class: center
 
-<img src="img/rmd_cat.jpeg" height=550>
+## LaTeX errors are often cryptic to new learners
+
+<img src="img/rmd_cat.jpeg" height=450>
 
 *Source: https://twitter.com/overflow_meme/status/1232185254280138753*
 
 ---
+
 class: center
 
-<img src="https://www.meme-arsenal.com/memes/f8e3714ed0d4a19b65ebe61006ac9bde.jpg">
+## LaTeX errors are often cryptic to new learners
+
+<img src="img/r-latex-error.png" height=500>
+
+---
+class: center
+
+## Creating environments is painstakingly slow
+
+<img src="https://www.meme-arsenal.com/memes/f8e3714ed0d4a19b65ebe61006ac9bde.jpg" height=450>
 
 *Source: https://www.meme-arsenal.com/en/create/meme/1759571*
+
+---
+
+## Creating environments is painstakingly slow
+
+Dockerfile that adds 3 packages to a [rocker](https://www.rocker-project.org/) 
+Docker image:
+```Docker
+FROM rocker/verse:4.1.1
+
+# install R packages
+RUN apt-get update -qq && install2.r --error \
+    --deps TRUE \
+    plotly \
+    GGally \
+    cowplot
+
+```
+
+Build the Dockerfile:
+```bash
+time docker build .
+[+] Building 632.2s (6/6) FINISHED
+...
+```
+
+That took > 10 minutes to build on my Macbook pro!!!
 
 ---
 
@@ -286,6 +325,19 @@ I then had to spend many more hours repeating the same work
 to change the colors of all the lines and points to fix it.
 It was very frustrating to repeat such tedious and time consuming work,
 and I was not able to meet other deadlines on time because I had to redo this.*
+
+--
+
+*I have one project from my PhD where I am still supposed to help out 
+finish some things off but dread doing so because it is unorganized 
+and is not tracking the changes in the output with the changes in the code.
+So although we are using version control there, the input 
+and output are gigabytes of images 
+and we didn't set up any good way to keep track of which images 
+were analyzed with which version of the code. 
+We also "didn't have time" to write tests for the code, 
+so there is no guarantee there are not unintended side effects 
+from the changes made even if they are tracked in version control.*
 
 ---
 
@@ -573,6 +625,8 @@ class: middle
 class: center, middle
 
 <img src="https://media.giphy.com/media/x1yhRwlqxBiQU/source.gif" width=800>
+
+*Source: https://giphy.com/gifs/opinion-the-big-lebowski-x1yhRwlqxBiQU*
 
 ---
 
