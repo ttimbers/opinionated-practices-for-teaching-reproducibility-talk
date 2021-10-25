@@ -782,4 +782,5 @@ class: inverse, center, middle
 
 ### @TiffanyTimbers
 
-####*[bit.ly/opin-teach-repro](https://bit.ly/opin-teach-repro)*
+#### talk slides: *[bit.ly/opin-teach-repro](https://bit.ly/opin-teach-repro)*
+#### preprint: https://arxiv.org/abs/2109.13656
